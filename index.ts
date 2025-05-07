@@ -12,6 +12,7 @@ app.get("/cpu", (req, res) => {
 app.get("/", (req, res)=>{
     // health check
     res.send("hii");
+	res.send("hello");
 })
 
 app.listen(3000)
